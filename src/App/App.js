@@ -445,7 +445,7 @@ function FullApp() {
               <Route exact path="/">
                 <Homepage />
               </Route>
-              <Route exact path="/trade">
+              <Route exact path="/exchange">
                 <Exchange
                   ref={exchangeRef}
                   savedShowPnlAfterFees={savedShowPnlAfterFees}

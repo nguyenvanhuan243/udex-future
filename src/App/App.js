@@ -23,6 +23,7 @@ import Stats from "pages/Stats/Stats";
 import Ecosystem from "pages/Ecosystem/Ecosystem";
 import Stake from "pages/Stake/Stake";
 import { Exchange } from "pages/Exchange/Exchange";
+import { Trading } from "pages/Trading/Trading";
 import Actions from "pages/Actions/Actions";
 import OrdersOverview from "pages/OrdersOverview/OrdersOverview";
 import PositionsOverview from "pages/PositionsOverview/PositionsOverview";
@@ -460,6 +461,9 @@ function FullApp() {
                   savedShouldDisableValidationForTesting={savedShouldDisableValidationForTesting}
                   openSettings={openSettings}
                 />
+              </Route>
+              <Route exact path="/trading">
+                <Trading />
               </Route>
               <Route exact path="/dashboard">
                 <Dashboard />

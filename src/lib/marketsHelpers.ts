@@ -1,4 +1,4 @@
-import { MarketConfigs } from '../constants/abacus';
+import { MarketConfigs } from '@/constants/abacus';
 
 import { BIG_NUMBERS } from './numbers';
 

@@ -3,12 +3,12 @@ import {
   ChartPropertiesOverrides,
   TradingTerminalFeatureset,
   TradingTerminalWidgetOptions,
-} from '../../../public/charting_library';
+} from 'public/tradingview/charting_library';
 
-import { MetadataServiceCandlesResponse } from '../../constants/assetMetadata';
-import { Candle, TradingViewChartBar, TradingViewSymbol } from '../../constants/candles';
-import { THEME_NAMES } from '../../constants/styles/colors';
-import type { ChartLineType } from '../../constants/tvchart';
+import { MetadataServiceCandlesResponse } from '@/constants/assetMetadata';
+import { Candle, TradingViewChartBar, TradingViewSymbol } from '@/constants/candles';
+import { THEME_NAMES } from '@/constants/styles/colors';
+import type { ChartLineType } from '@/constants/tvchart';
 
 import { Themes } from '@/styles/themes';
 

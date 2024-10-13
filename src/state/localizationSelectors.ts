@@ -5,9 +5,9 @@ import {
   LocaleData,
   StringGetterFunction,
   SupportedLocales,
-} from '../constants/localization';
+} from '@/constants/localization';
 
-import formatString from '../lib/formatString';
+import formatString from '@/lib/formatString';
 
 import { type RootState } from './_store';
 import { createAppSelector } from './appTypes';

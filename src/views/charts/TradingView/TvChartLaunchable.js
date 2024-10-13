@@ -16,7 +16,7 @@ export const TvChartLaunchable = ({ marketId }) => {
     isViewingUnlaunchedMarket: true,
     tvWidget,
     isWidgetReady,
-    savedResolution: savedResolution as ResolutionString,
+    savedResolution: savedResolution,
   });
 
   // useTradingViewTheme({

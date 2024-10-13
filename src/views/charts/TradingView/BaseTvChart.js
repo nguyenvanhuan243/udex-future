@@ -1,7 +1,6 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
 import { layoutMixins } from '../../../styles/layoutMixins';
-import { LoadingSpace } from '../../../components/Loading/LoadingSpinner';
 
 export default BaseTvChart = ({ isChartReady }) => {
   return (

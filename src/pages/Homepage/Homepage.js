@@ -25,7 +25,16 @@ const Homepage = () => {
                   <span
                     className="btn-a btn-blue"
                     style={{ cursor: "pointer", userSelect: "none" }}
-                    onClick={() => history.push("/trade")}
+                    onClick={() => history.push("/exchange")}
+                  >
+                    START EXCHANGE
+                  </span>
+                </div>
+                <div className="group-btn animate a_05">
+                  <span
+                    className="btn-a btn-blue"
+                    style={{ cursor: "pointer", userSelect: "none" }}
+                    onClick={() => history.push("/trading")}
                   >
                     START TRADING
                   </span>
